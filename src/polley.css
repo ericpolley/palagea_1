@@ -1,0 +1,39 @@
+.button {
+  background-color: rgb(150, 200, 255);
+}
+
+@media (min-width: 500px) {
+  .flexRow {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+
+  .flexCol {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .button {
+    width: 150px;
+  }
+}
+
+@media (max-width: 500px) {
+  .flexRow {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+
+  .flexCol {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .button {
+    width: 100px;
+  }
+}
