@@ -1,5 +1,17 @@
-.button {
-  background-color: rgb(150, 200, 255);
+body {
+  text-align: center;
+  background-color: rgb(220, 220, 220);
+}
+
+a {
+  color: black;
+}
+
+a:hover {
+  color: rgb(50, 50, 50);
+}
+
+.alignItems {
 }
 
 @media (min-width: 500px) {
@@ -7,16 +19,14 @@
     display: flex;
     flex-direction: row;
     justify-content: center;
+    align-items: center;
   }
 
   .flexCol {
     display: flex;
     flex-direction: column;
     justify-content: center;
-  }
-
-  .button {
-    width: 150px;
+    align-items: center;
   }
 }
 
@@ -25,6 +35,7 @@
     display: flex;
     flex-direction: row;
     justify-content: center;
+    align-items: center;
     flex-wrap: wrap;
   }
 
@@ -32,8 +43,6 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-  }
-  .button {
-    width: 100px;
+    align-items: center;
   }
 }
